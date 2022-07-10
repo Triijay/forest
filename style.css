@@ -1,0 +1,93 @@
+/* General */
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Schoolbell', cursive;
+}
+
+h1, h2, h3, h4, h5, h6, footer{
+  font-family: 'Grape Nuts', cursive;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+
+/* Content */
+.headerimage {
+  width: 100%;
+  height: 100vh;
+  padding: 0px 50px;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10%;
+
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#maincontent {
+  padding: 2rem 0rem;
+}
+
+
+/* Buttons */
+.btn {
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.btn-primary {
+  background-color: #F55A00;
+  border-color: #F55A00;
+  transition: transform 666ms, background-color 666ms, border-color 666ms;
+}
+.btn-primary:hover {
+  transform: scale(1.1);
+  background-color: #FF7E33;
+  border-color: #FF7E33;
+}
+
+.btn-xl {
+  padding: 1em 2em;
+}
+
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #02202B;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #D1FEF7;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  column-gap: 1.5em;
+  margin-bottom: 0px;
+}
+
+.footercontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100%;
+}
