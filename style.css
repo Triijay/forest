@@ -91,3 +91,8 @@ footer ul {
 
   height: 100%;
 }
+
+.photocredits {
+  align-self: flex-end;
+  padding-bottom: 0.5em;
+}
